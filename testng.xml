@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suites" parallel="none">
+       <listeners>
+              <listener class-name="com.uc.test.selenium.util.Listener"></listener>
+       </listeners> 
+	  <test name="Simple Test">
+	    <classes>
+	      <class name="com.uc.test.selenium.tests.Test_Login"/>
+	    </classes>
+	  </test>
+	  <!-- test name="ALL"> 
+		  <packages>
+			  <package name="com.uc.test.selenium.tests" />
+		  </packages>
+	  </test -->
+	  
+	  					
+</suite> <!-- Suite -->
