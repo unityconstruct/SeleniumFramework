@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13695" started-at="2018-06-23T07:51:26Z" finished-at="2018-06-23T07:51:40Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13695" started-at="2018-06-23T07:51:26Z" finished-at="2018-06-23T07:51:40Z">
+      <class name="com.uc.test.selenium.tests.Test_Login">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.uc.test.selenium.tests.Test_Login@57c758ac]" name="beforeMethod" is-config="true" duration-ms="6610" started-at="2018-06-23T02:51:26Z" finished-at="2018-06-23T02:51:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test_createArticle()[pri:0, instance:com.uc.test.selenium.tests.Test_Login@57c758ac]" name="test_createArticle" duration-ms="6846" started-at="2018-06-23T02:51:33Z" finished-at="2018-06-23T02:51:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_createArticle -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.uc.test.selenium.tests.Test_Login@57c758ac]" name="afterMethod" is-config="true" duration-ms="219" started-at="2018-06-23T02:51:40Z" finished-at="2018-06-23T02:51:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.uc.test.selenium.tests.Test_Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

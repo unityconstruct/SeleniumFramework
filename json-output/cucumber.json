@@ -1,0 +1,520 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 16,
+        "name": "Free CRM Login Test Scenario",
+        "description": "",
+        "id": "create-a-new-article;free-crm-login-test-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6711407788,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on home page",
+            "match": {
+              "location": "CreateArticle_Definitions.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 28028572,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title of home page is correct",
+            "match": {
+              "location": "CreateArticle_Definitions.title_of_home_page_is_correct()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1992593186,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on LoginLink",
+            "match": {
+              "location": "CreateArticle_Definitions.user_clicks_on_LoginLink()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2237701157,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters username \"UnityAdmin\" and password \"UnityAdmin@2017\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "UnityAdmin",
+                  "offset": 22
+                },
+                {
+                  "val": "UnityAdmin@2017",
+                  "offset": 48
+                }
+              ],
+              "location": "CreateArticle_Definitions.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5658595230,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks new article link",
+            "match": {
+              "location": "CreateArticle_Definitions.user_clicks_new_article_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 936339478,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters title \"NewArticle\" and body \"NewBody\" and tags \"_deleteme\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "NewArticle",
+                  "offset": 19
+                },
+                {
+                  "val": "NewBody",
+                  "offset": 41
+                },
+                {
+                  "val": "_deleteme",
+                  "offset": 60
+                }
+              ],
+              "location": "CreateArticle_Definitions.user_enters_title_and_body_and_tags(String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 226710003,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user closes browser",
+            "match": {
+              "location": "CreateArticle_Definitions.user_closes_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Free CRM Login Test Scenario",
+        "description": "",
+        "id": "create-a-new-article;free-crm-login-test-scenario;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5528318542,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on home page",
+            "match": {
+              "location": "CreateArticle_Definitions.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7848185,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title of home page is correct",
+            "match": {
+              "location": "CreateArticle_Definitions.title_of_home_page_is_correct()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1834127287,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on LoginLink",
+            "match": {
+              "location": "CreateArticle_Definitions.user_clicks_on_LoginLink()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2258373211,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters username \"UnityAdmin\" and password \"UnityAdmin@2017\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "UnityAdmin",
+                  "offset": 22
+                },
+                {
+                  "val": "UnityAdmin@2017",
+                  "offset": 48
+                }
+              ],
+              "location": "CreateArticle_Definitions.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2797054210,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks new article link",
+            "match": {
+              "location": "CreateArticle_Definitions.user_clicks_new_article_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 920654399,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters title \"NewArticle2\" and body \"NewBody2\" and tags \"_deleteme\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "NewArticle2",
+                  "offset": 19
+                },
+                {
+                  "val": "NewBody2",
+                  "offset": 42
+                },
+                {
+                  "val": "_deleteme",
+                  "offset": 62
+                }
+              ],
+              "location": "CreateArticle_Definitions.user_enters_title_and_body_and_tags(String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 209642305,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user closes browser",
+            "match": {
+              "location": "CreateArticle_Definitions.user_closes_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Free CRM Login Test Scenario",
+        "description": "",
+        "id": "create-a-new-article;free-crm-login-test-scenario;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5384780721,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on home page",
+            "match": {
+              "location": "CreateArticle_Definitions.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8184859,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title of home page is correct",
+            "match": {
+              "location": "CreateArticle_Definitions.title_of_home_page_is_correct()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2114102508,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on LoginLink",
+            "match": {
+              "location": "CreateArticle_Definitions.user_clicks_on_LoginLink()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2362804571,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters username \"UnityAdmin\" and password \"UnityAdmin@2017\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "UnityAdmin",
+                  "offset": 22
+                },
+                {
+                  "val": "UnityAdmin@2017",
+                  "offset": 48
+                }
+              ],
+              "location": "CreateArticle_Definitions.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3025316195,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks new article link",
+            "match": {
+              "location": "CreateArticle_Definitions.user_clicks_new_article_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 925122506,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters title \"NewArticle3\" and body \"NewBody3\" and tags \"_deleteme\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "NewArticle3",
+                  "offset": 19
+                },
+                {
+                  "val": "NewBody3",
+                  "offset": 42
+                },
+                {
+                  "val": "_deleteme",
+                  "offset": 62
+                }
+              ],
+              "location": "CreateArticle_Definitions.user_enters_title_and_body_and_tags(String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 151028804,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user closes browser",
+            "match": {
+              "location": "CreateArticle_Definitions.user_closes_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Free CRM Login Test Scenario",
+        "description": "",
+        "id": "create-a-new-article;free-crm-login-test-scenario;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6495791069,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on home page",
+            "match": {
+              "location": "CreateArticle_Definitions.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7606458,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title of home page is correct",
+            "match": {
+              "location": "CreateArticle_Definitions.title_of_home_page_is_correct()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1817378300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on LoginLink",
+            "match": {
+              "location": "CreateArticle_Definitions.user_clicks_on_LoginLink()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2235807369,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters username \"UnityAdmin\" and password \"UnityAdmin@2017\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "UnityAdmin",
+                  "offset": 22
+                },
+                {
+                  "val": "UnityAdmin@2017",
+                  "offset": 48
+                }
+              ],
+              "location": "CreateArticle_Definitions.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3281004744,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks new article link",
+            "match": {
+              "location": "CreateArticle_Definitions.user_clicks_new_article_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 912893974,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters title \"NewArticle4\" and body \"NewBody4\" and tags \"_deleteme\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "NewArticle4",
+                  "offset": 19
+                },
+                {
+                  "val": "NewBody4",
+                  "offset": 42
+                },
+                {
+                  "val": "_deleteme",
+                  "offset": 62
+                }
+              ],
+              "location": "CreateArticle_Definitions.user_enters_title_and_body_and_tags(String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 185236564,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user closes browser",
+            "match": {
+              "location": "CreateArticle_Definitions.user_closes_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Create a new article",
+    "description": "",
+    "id": "create-a-new-article",
+    "keyword": "Feature",
+    "uri": "src/com/uc/test/selenium/bdd/features/CreateArticle.feature"
+  }
+]

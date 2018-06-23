@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="60.254451">
+<testcase classname="Create a new article" name="Free CRM Login Test Scenario" time="17.791375">
+<system-out><![CDATA[Given User is on home page..................................................passed
+When title of home page is correct..........................................passed
+Then user clicks on LoginLink...............................................passed
+Then user enters username "UnityAdmin" and password "UnityAdmin@2017".......passed
+Then user clicks new article link...........................................passed
+Then user enters title "NewArticle" and body "NewBody" and tags "_deleteme".passed
+Then user closes browser....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Create a new article" name="Free CRM Login Test Scenario 2" time="13.556018">
+<system-out><![CDATA[Given User is on home page..................................................passed
+When title of home page is correct..........................................passed
+Then user clicks on LoginLink...............................................passed
+Then user enters username "UnityAdmin" and password "UnityAdmin@2017".......passed
+Then user clicks new article link...........................................passed
+Then user enters title "NewArticle2" and body "NewBody2" and tags "_deleteme".passed
+Then user closes browser....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Create a new article" name="Free CRM Login Test Scenario 3" time="13.97134">
+<system-out><![CDATA[Given User is on home page..................................................passed
+When title of home page is correct..........................................passed
+Then user clicks on LoginLink...............................................passed
+Then user enters username "UnityAdmin" and password "UnityAdmin@2017".......passed
+Then user clicks new article link...........................................passed
+Then user enters title "NewArticle3" and body "NewBody3" and tags "_deleteme".passed
+Then user closes browser....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Create a new article" name="Free CRM Login Test Scenario 4" time="14.935718">
+<system-out><![CDATA[Given User is on home page..................................................passed
+When title of home page is correct..........................................passed
+Then user clicks on LoginLink...............................................passed
+Then user enters username "UnityAdmin" and password "UnityAdmin@2017".......passed
+Then user clicks new article link...........................................passed
+Then user enters title "NewArticle4" and body "NewBody4" and tags "_deleteme".passed
+Then user closes browser....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
