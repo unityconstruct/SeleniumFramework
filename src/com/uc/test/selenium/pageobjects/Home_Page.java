@@ -1,10 +1,8 @@
 package com.uc.test.selenium.pageobjects;
 
-import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.uc.test.selenium.util.BrowserUtils;
@@ -98,7 +96,13 @@ public class Home_Page extends PageBaseClass {
 	}	  
 
 	public static WebElement link_Login() throws Exception{
-		BrowserUtils.waitForElementToBeReady("xpath", "//a[@href='/uc/user/login']");
+		
+		int timeoutSec = 15;
+		WebDriverWait wait = new WebDriverWait(driver, timeoutSec);
+		//wait.until((driver) -> driver.findElements(By.xpath("//a[@href='/uc/user/login']")).size()>0);
+		wait.until((driver) -> driver.findElement(By.xpath("//a[@href='/uc/user/login']")).isDisplayed());
+		
+		//BrowserUtils.waitForElementToBeReady("xpath", "//a[@href='/uc/user/login']");
 		try {
 			element = driver.findElement(By.xpath("//a[@href='/uc/user/login']"));
 		} catch (Exception e) {
